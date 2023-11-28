@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: purple;
+}
+.container{
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 2px solid black;
+    margin-top: 80px;
+
+}
+.Temperature{
+    margin-top: 20px;
+}
+h1{
+    color: rgb(18, 1, 1);
+    margin-top: 60px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+input{
+    margin: auto;
+    margin-left: 50px;
+    padding: 15px 15px 15px 15px;
+    margin: 20px 20px 20px 20px;
+    align-items: center;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+    font-weight: bold;
+}
+.submit{
+    margin-left: 150px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    font-weight: bolder;
+    background-color: red;
+}
+.cel,.fah,.kel{
+    position: absolute;
+    width: 20px;
+    height: 50px;
+}
+.img1,.img2,.img3{
+    height: 43px;
+    width: 60px;
+    margin-top: 20px;
+    background-color: white;
+    margin-left: -20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
